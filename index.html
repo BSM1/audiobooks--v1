@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>аудиокниги</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="manifest" href="manifest.json">
+	<meta name="theme-color" content="#222222">
+	<link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+	<div class="container">
+		<h1>Авторы</h1>
+
+		<section class="book__container">
+			<div class="book__cover-container">
+				<a target="_blank" href="https://knigavuhe.org/book/na-randevu-s-tenju/" class="book__link">
+					<img src="https://s5.knigavuhe.org/1/covers/21236/1-1.jpg?v=2" alt="" class="book__cover">
+				</a>
+			</div>
+			<div class="book__text-container">
+				<p class="book__author">Татьяна Степанова</p>
+				<h2 class="book__title"><a target="_blank" href="https://knigavuhe.org/book/na-randevu-s-tenju/" class="book__link">на рандеву с тенью</a></h2>
+			</div>
+		</section>
+		
+		<section class="book__container">
+			<div class="book__cover-container">
+				<a target="_blank" href="https://knigavuhe.org/book/kolesnica-vremeni/" class="book__link">
+					<img src="https://s5.knigavuhe.org/1/covers/60537/1-1.jpg?v=1" alt="" class="book__cover">
+				</a>
+			</div>
+			<div class="book__text-container">
+				<p class="book__author">Татьяна Степанова</p>
+				<h2 class="book__title"><a target="_blank" href="https://knigavuhe.org/book/kolesnica-vremeni/" class="book__link">колесница времени</a></h2>
+			</div>
+		</section>
+
+		<section class="book__container">
+			<div class="book__cover-container">
+				<a target="_blank" href="https://knigavuhe.org/book/valkirija-v-chjornom/" class="book__link">
+					<img src="https://s4.knigavuhe.org/1/covers/55930/1-1.jpg?v=1" alt="" class="book__cover">
+				</a>
+			</div>
+			<div class="book__text-container">
+				<p class="book__author">Татьяна Степанова</p>
+				<h2 class="book__title"><a target="_blank" href="https://knigavuhe.org/book/valkirija-v-chjornom/" class="book__link">валькирия в черном</a></h2>
+			</div>
+			
+			
+		</section>
+		
+
+	</div>
+
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', () => {
+				navigator.serviceWorker.register('sw.js').catch(err => console.log('SW error:', err));
+			});
+		}
+	</script>
+
+</body>
+</html>

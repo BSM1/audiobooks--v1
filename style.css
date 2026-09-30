@@ -1,0 +1,120 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-origin: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f5f5f5;
+	padding: 20px;
+}
+
+.container {
+	max-width: 90vw;
+	margin: 0 auto;
+	background: white;
+	border-radius: 6px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+h1 {
+	padding: 20px;
+	background: #333;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+.book__container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 1em;
+}
+/*навигация табов*/
+.tabs-nav {
+	display: flex;
+	background: #f8f9fa;
+	border-bottom: 1px solid #dee2e6;
+}
+
+.tab-button {
+	flex: 1;
+	padding: 15px 20px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	color: #333;
+	border-bottom: 2px solid transparent;
+}
+
+.tab-button:hover {
+	background: #e9ecef;
+	color: #333;
+}
+
+.tab-button.active {
+	background: white;
+	color: #007bff;
+	border-bottom-color: #007bff;
+	font-weight: normal;
+}
+
+.tabs-content {
+	padding: 20px;
+	min-height: 200px;
+}
+
+body {
+	font-family: system-ui, Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	background: #f5f5f5;
+	color: #222;
+}
+
+h1 {
+	margin-bottom: 24px;
+}
+
+.book-container {
+	background: #fff;
+	padding: 16px 20px;
+	margin-bottom: 12px;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.book__author {
+	margin: 0 0 6px;
+	color: #666;
+	font-size: 14px;
+}
+
+.book__title {
+	margin: 0;
+	font-size: 20px;
+}
+
+.book__link {
+	color: #1a73e8;
+	text-decoration: none;
+}
+
+.book__link:hover {
+	text-decoration: underline;
+}
+
+.book__cover-container {
+
+}
+
+.book__text-container {
+
+}
